@@ -59,6 +59,13 @@ function applyEnvOverrides(config) {
     config.pollMinutes = Number(process.env.PARKING_MONITOR_POLL_MINUTES);
   }
 
+  if (process.env.PARKING_MONITOR_EXCLUDE_MOTORCYCLE_PARKING) {
+    config.excludeMotorcycleParking = parseBooleanEnv(
+      process.env.PARKING_MONITOR_EXCLUDE_MOTORCYCLE_PARKING,
+      config.excludeMotorcycleParking
+    );
+  }
+
   if (process.env.PARKING_MONITOR_STATE_FILE) {
     config.stateFile = path.resolve(process.cwd(), process.env.PARKING_MONITOR_STATE_FILE);
   }
@@ -117,6 +124,10 @@ function loadConfig(configPath = DEFAULT_CONFIG_FILE) {
 
   if (!Number.isFinite(config.pollMinutes) || config.pollMinutes <= 0) {
     config.pollMinutes = 30;
+  }
+
+  if (typeof config.excludeMotorcycleParking !== "boolean") {
+    config.excludeMotorcycleParking = true;
   }
 
   config.notifications = {

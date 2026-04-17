@@ -2,6 +2,7 @@
   "homeAddress": "横浜市南区二葉町4-32",
   "radiusMeters": 600,
   "pollMinutes": 30,
+  "excludeMotorcycleParking": true,
   "sources": [
     {
       "name": "p-king",

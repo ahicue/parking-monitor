@@ -66,6 +66,11 @@ function buildListingFromNextData(nextData, detailUrl, center) {
     monthlyPrice: fee ? `${fee} JPY` : "",
     prices: fee ? [`${fee} JPY`] : [],
     note: card.note || "",
+    vehicleType: partitionGroup?.carKind || "",
+    vehicleKinds: (pageProps.partitionGroups || [])
+      .map((group) => group.carKind)
+      .filter(Boolean)
+      .join(" | "),
     vacancyStatus:
       card.parkingLotStatus === 1
         ? "available"

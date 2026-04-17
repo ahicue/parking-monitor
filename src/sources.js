@@ -1,6 +1,7 @@
 const { fetchNearbyListings: fetchPKingListings } = require("./source-pking");
 const { fetchNearbyListings: fetchCarParkingListings } = require("./source-carparking");
 const { fetchNearbyListings: fetchParkDirectListings } = require("./source-park-direct");
+const { filterUnsupportedListings } = require("./listing-filters");
 
 const SOURCE_HANDLERS = {
   "p-king": fetchPKingListings,
@@ -21,9 +22,10 @@ async function fetchNearbyListings(config, center) {
 
     try {
       const listings = await fetcher(sourceConfig, config, center);
-      allListings.push(...listings);
+      const filteredListings = filterUnsupportedListings(listings, config);
+      allListings.push(...filteredListings);
       console.log(
-        `[source:${sourceConfig.name}] ${listings.length} listings within ${config.radiusMeters}m`
+        `[source:${sourceConfig.name}] ${filteredListings.length} listings within ${config.radiusMeters}m`
       );
     } catch (error) {
       console.warn(`[source:${sourceConfig.name}] ${error.message}`);

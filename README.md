@@ -28,6 +28,7 @@ Edit `config/config.json` and confirm:
 - `homeAddress`
 - `radiusMeters`
 - `pollMinutes`
+- `excludeMotorcycleParking`
 - `sources`
 - `notifications.discordWebhookUrl` if you want Discord alerts
 - `notifications.webhookUrl` if you want another webhook target
@@ -63,6 +64,7 @@ It is configured to:
 - run manually with `workflow_dispatch`
 - update `data/state.json` in the repository after each check
 - send Discord notifications through a GitHub secret
+- exclude motorcycle and bike parking by default
 
 To enable it:
 

@@ -77,6 +77,9 @@ async function fetchListingDetail(detailUrl, sourceConfig, center) {
       (jsonLd.offers?.price ? `${jsonLd.offers.price} JPY` : ""),
     prices: jsonLd.offers?.price ? [`${jsonLd.offers.price} JPY`] : [],
     note: jsonLd.offers?.description || "",
+    vehicleType: Array.isArray(jsonLd.additionalProperty)
+      ? jsonLd.additionalProperty.map((property) => property?.value).filter(Boolean).join(" | ")
+      : "",
     vacancyStatus: "unknown",
     isNewData: Boolean(extractUpdatedAt(html)),
     indoor: /indoor/i.test(description),

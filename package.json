@@ -1,0 +1,20 @@
+{
+  "name": "parking-monitor",
+  "version": "1.0.0",
+  "description": "Monitor nearby monthly parking listings in Japan and notify on new spots.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js watch",
+    "check": "node src/index.js check",
+    "init-config": "node src/index.js init-config"
+  },
+  "keywords": [
+    "parking",
+    "japan",
+    "monitor",
+    "notification"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

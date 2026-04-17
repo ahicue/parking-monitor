@@ -1,0 +1,34 @@
+{
+  "homeAddress": "横浜市南区二葉町4-32",
+  "radiusMeters": 600,
+  "pollMinutes": 30,
+  "sources": [
+    {
+      "name": "p-king",
+      "baseUrl": "https://p-king.jp",
+      "searchTerms": [
+        "横浜市南区二葉町4-32",
+        "横浜市南区二葉町",
+        "吉野町駅",
+        "阪東橋駅"
+      ]
+    },
+    {
+      "name": "carparking",
+      "baseUrl": "https://carparking.jp",
+      "areaPath": "/area/city/14105/"
+    },
+    {
+      "name": "park-direct",
+      "baseUrl": "https://www.park-direct.jp",
+      "areaPath": "/area/kanagawa/yokohamashiminamiku"
+    }
+  ],
+  "notifications": {
+    "console": true,
+    "desktopToast": true,
+    "discordWebhookUrl": "",
+    "webhookUrl": ""
+  },
+  "stateFile": "../data/state.json"
+}

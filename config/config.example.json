@@ -28,6 +28,17 @@
       "name": "park-direct",
       "baseUrl": "https://www.park-direct.jp",
       "areaPath": "/area/kanagawa/yokohamashiminamiku"
+    },
+    {
+      "name": "navipark",
+      "searchTerms": [
+        "横浜市南区",
+        "吉野町",
+        "阪東橋"
+      ]
+    },
+    {
+      "name": "repark"
     }
   ],
   "notifications": {

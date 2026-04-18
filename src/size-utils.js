@@ -76,7 +76,7 @@ function findLabeledDimensionMm(text, labels) {
 function extractLabeledDimensionsMm(text) {
   return {
     lengthMm: findLabeledDimensionMm(text, ["全長", "長さ", "length"]),
-    widthMm: findLabeledDimensionMm(text, ["全幅", "車幅", "width"]),
+    widthMm: findLabeledDimensionMm(text, ["全幅", "車幅", "幅", "width"]),
     heightMm: findLabeledDimensionMm(text, ["全高", "車高", "高さ", "height"]),
   };
 }

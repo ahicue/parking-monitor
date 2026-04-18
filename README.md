@@ -9,6 +9,8 @@ Monitor monthly parking listings near your home in Japan and notify when new spo
   - `p-king.jp`
   - `carparking.jp`
   - `park-direct.jp`
+  - `navipark1.com`
+  - `repark.jp`
 - Filters listings to a configurable radius such as `600m`.
 - Stores seen listings in `data/state.json`.
 - Notifies on newly seen or changed listings through:

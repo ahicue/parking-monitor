@@ -1,7 +1,9 @@
-async function fetchText(url) {
+async function fetchText(url, options = {}) {
   const response = await fetch(url, {
+    ...options,
     headers: {
       "user-agent": "parking-monitor/1.0",
+      ...(options.headers || {}),
     },
   });
 

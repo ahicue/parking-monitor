@@ -1,5 +1,6 @@
 const { haversineMeters } = require("./distance");
 const { fetchText } = require("./http");
+const { hasAnyKnownDimension, normalizeDimensionMm } = require("./size-utils");
 
 function extractDetailLinks(html) {
   const matches = [...html.matchAll(/href="(\/parkinglot\/PK\d+)"/g)];
@@ -28,6 +29,17 @@ function extractNextData(html) {
   }
 }
 
+function extractSizeOptions(partitionGroups) {
+  return (partitionGroups || [])
+    .map((group) => ({
+      lengthMm: normalizeDimensionMm(group?.sizeProps?.carLength),
+      widthMm: normalizeDimensionMm(group?.sizeProps?.carWidth),
+      heightMm: normalizeDimensionMm(group?.sizeProps?.carHeight),
+      raw: JSON.stringify(group?.sizeProps || {}),
+    }))
+    .filter(hasAnyKnownDimension);
+}
+
 function buildListingFromNextData(nextData, detailUrl, center) {
   const pageProps = nextData?.props?.pageProps;
   const card = pageProps?.parkingOutlineCardProps;
@@ -48,6 +60,7 @@ function buildListingFromNextData(nextData, detailUrl, center) {
   const idMatch = detailUrl.match(/\/parkinglot\/(PK\d+)/);
   const id = idMatch ? idMatch[1] : detailUrl;
   const partitionGroup = pageProps.partitionGroups?.[0];
+  const sizeOptions = extractSizeOptions(pageProps.partitionGroups);
   const fee =
     partitionGroup?.monthlyFeeModalProps?.total ||
     pageProps.nearbyParkings?.[0]?.monthlyFeeWithTax ||
@@ -71,6 +84,7 @@ function buildListingFromNextData(nextData, detailUrl, center) {
       .map((group) => group.carKind)
       .filter(Boolean)
       .join(" | "),
+    sizeOptions,
     vacancyStatus:
       card.parkingLotStatus === 1
         ? "available"

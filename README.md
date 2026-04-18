@@ -29,6 +29,7 @@ Edit `config/config.json` and confirm:
 - `radiusMeters`
 - `pollMinutes`
 - `excludeMotorcycleParking`
+- `minimumVehicleSizeMm`
 - `sources`
 - `notifications.discordWebhookUrl` if you want Discord alerts
 - `notifications.webhookUrl` if you want another webhook target
@@ -65,6 +66,7 @@ It is configured to:
 - update `data/state.json` in the repository after each check
 - send Discord notifications through a GitHub secret
 - exclude motorcycle and bike parking by default
+- exclude undersized listings when the source exposes car dimensions
 
 To enable it:
 

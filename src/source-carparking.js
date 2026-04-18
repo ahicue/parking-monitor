@@ -1,5 +1,6 @@
 const { haversineMeters } = require("./distance");
 const { fetchText } = require("./http");
+const { extractLabeledDimensionsMm, hasAnyKnownDimension } = require("./size-utils");
 
 function extractDetailLinks(html) {
   const matches = [...html.matchAll(/href="(\/detail\/\d+\/?)"/g)];
@@ -35,6 +36,36 @@ function extractJsonLd(html) {
 function extractUpdatedAt(html) {
   const match = html.match(/name="az_hash_updated_datetime" content="([^"]+)"/);
   return match ? match[1] : null;
+}
+
+function extractSizeOptions(jsonLd) {
+  const sizeText = [
+    ...(Array.isArray(jsonLd.additionalProperty)
+      ? jsonLd.additionalProperty
+          .filter((property) =>
+            /車室サイズ|全長|全幅|全高|車高/i.test(
+              `${property?.name || ""} ${property?.value || ""}`
+            )
+          )
+          .map((property) => `${property?.name || ""} ${property?.value || ""}`)
+      : []),
+    ...(Array.isArray(jsonLd.amenityFeature)
+      ? jsonLd.amenityFeature
+          .filter((feature) =>
+            /車室サイズ|全長|全幅|全高|車高/i.test(
+              `${feature?.name || ""} ${feature?.value || ""}`
+            )
+          )
+          .map((feature) => `${feature?.name || ""} ${feature?.value || ""}`)
+      : []),
+  ].join(" | ");
+
+  const sizeOption = {
+    ...extractLabeledDimensionsMm(sizeText),
+    raw: sizeText,
+  };
+
+  return hasAnyKnownDimension(sizeOption) ? [sizeOption] : [];
 }
 
 async function fetchListingDetail(detailUrl, sourceConfig, center) {
@@ -80,6 +111,7 @@ async function fetchListingDetail(detailUrl, sourceConfig, center) {
     vehicleType: Array.isArray(jsonLd.additionalProperty)
       ? jsonLd.additionalProperty.map((property) => property?.value).filter(Boolean).join(" | ")
       : "",
+    sizeOptions: extractSizeOptions(jsonLd),
     vacancyStatus: "unknown",
     isNewData: Boolean(extractUpdatedAt(html)),
     indoor: /indoor/i.test(description),

@@ -66,6 +66,28 @@ function applyEnvOverrides(config) {
     );
   }
 
+  config.minimumVehicleSizeMm = {
+    ...config.minimumVehicleSizeMm,
+  };
+
+  if (process.env.PARKING_MONITOR_MIN_LENGTH_MM) {
+    config.minimumVehicleSizeMm.lengthMm = Number(
+      process.env.PARKING_MONITOR_MIN_LENGTH_MM
+    );
+  }
+
+  if (process.env.PARKING_MONITOR_MIN_WIDTH_MM) {
+    config.minimumVehicleSizeMm.widthMm = Number(
+      process.env.PARKING_MONITOR_MIN_WIDTH_MM
+    );
+  }
+
+  if (process.env.PARKING_MONITOR_MIN_HEIGHT_MM) {
+    config.minimumVehicleSizeMm.heightMm = Number(
+      process.env.PARKING_MONITOR_MIN_HEIGHT_MM
+    );
+  }
+
   if (process.env.PARKING_MONITOR_STATE_FILE) {
     config.stateFile = path.resolve(process.cwd(), process.env.PARKING_MONITOR_STATE_FILE);
   }
@@ -129,6 +151,12 @@ function loadConfig(configPath = DEFAULT_CONFIG_FILE) {
   if (typeof config.excludeMotorcycleParking !== "boolean") {
     config.excludeMotorcycleParking = true;
   }
+
+  config.minimumVehicleSizeMm = {
+    lengthMm: Number(config.minimumVehicleSizeMm?.lengthMm) || 4660,
+    widthMm: Number(config.minimumVehicleSizeMm?.widthMm) || 1865,
+    heightMm: Number(config.minimumVehicleSizeMm?.heightMm) || 1660,
+  };
 
   config.notifications = {
     console: true,

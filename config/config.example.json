@@ -3,6 +3,11 @@
   "radiusMeters": 600,
   "pollMinutes": 30,
   "excludeMotorcycleParking": true,
+  "minimumVehicleSizeMm": {
+    "lengthMm": 4660,
+    "widthMm": 1865,
+    "heightMm": 1660
+  },
   "sources": [
     {
       "name": "p-king",

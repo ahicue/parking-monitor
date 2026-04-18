@@ -1,5 +1,6 @@
 const { haversineMeters } = require("./distance");
 const { fetchText } = require("./http");
+const { hasAnyKnownDimension, normalizeDimensionMm } = require("./size-utils");
 
 function decodeHtmlEntities(input) {
   return input
@@ -50,6 +51,37 @@ function mapVacancyStatus(value) {
     default:
       return "unknown";
   }
+}
+
+function extractSizeOptions(html) {
+  const matches = [
+    ...html.matchAll(
+      /<th scope="row">全長\s*\/\s*全幅\s*\/<br>\s*全高\s*\/\s*重量<\/th>\s*<td>([\s\S]*?)<\/td>/g
+    ),
+  ];
+
+  return matches
+    .map((match) => {
+      const values = [...match[1].matchAll(/<span>([^<]+)<\/span>/g)].map((valueMatch) =>
+        valueMatch[1].trim()
+      );
+
+      return {
+        lengthMm: normalizeDimensionMm(values[0]),
+        widthMm: normalizeDimensionMm(values[1]),
+        heightMm: normalizeDimensionMm(values[2]),
+        raw: values.join(" / "),
+      };
+    })
+    .filter(hasAnyKnownDimension);
+}
+
+async function enrichListingWithDetail(listing) {
+  const html = await fetchText(listing.detailUrl);
+  return {
+    ...listing,
+    sizeOptions: extractSizeOptions(html),
+  };
 }
 
 function normalizeListing(entry, sourceBaseUrl, center, searchTerm) {
@@ -130,7 +162,20 @@ async function fetchNearbyListings(sourceConfig, globalConfig, center) {
     }
   }
 
-  return [...deduped.values()].sort((a, b) => a.distanceMeters - b.distanceMeters);
+  const nearbyListings = [...deduped.values()].sort(
+    (a, b) => a.distanceMeters - b.distanceMeters
+  );
+
+  const enrichedListings = [];
+  for (const listing of nearbyListings) {
+    try {
+      enrichedListings.push(await enrichListingWithDetail(listing));
+    } catch (error) {
+      enrichedListings.push(listing);
+    }
+  }
+
+  return enrichedListings;
 }
 
 module.exports = {

@@ -39,6 +39,15 @@
     },
     {
       "name": "repark"
+    },
+    {
+      "name": "at-parking",
+      "searchTerms": [
+        "横浜市南区 二葉町",
+        "横浜市南区 吉野町",
+        "横浜市南区 阪東橋",
+        "横浜市南区"
+      ]
     }
   ],
   "notifications": {

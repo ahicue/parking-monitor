@@ -3,6 +3,7 @@ const { fetchNearbyListings: fetchCarParkingListings } = require("./source-carpa
 const { fetchNearbyListings: fetchParkDirectListings } = require("./source-park-direct");
 const { fetchNearbyListings: fetchNaviParkListings } = require("./source-navipark");
 const { fetchNearbyListings: fetchReparkListings } = require("./source-repark");
+const { fetchNearbyListings: fetchAtParkingListings } = require("./source-at-parking");
 const { filterUnsupportedListings } = require("./listing-filters");
 
 const SOURCE_HANDLERS = {
@@ -11,6 +12,7 @@ const SOURCE_HANDLERS = {
   "park-direct": fetchParkDirectListings,
   navipark: fetchNaviParkListings,
   repark: fetchReparkListings,
+  "at-parking": fetchAtParkingListings,
 };
 
 function normalizeDetailUrl(detailUrl) {

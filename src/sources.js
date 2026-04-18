@@ -4,6 +4,7 @@ const { fetchNearbyListings: fetchParkDirectListings } = require("./source-park-
 const { fetchNearbyListings: fetchNaviParkListings } = require("./source-navipark");
 const { fetchNearbyListings: fetchReparkListings } = require("./source-repark");
 const { fetchNearbyListings: fetchAtParkingListings } = require("./source-at-parking");
+const { fetchNearbyListings: fetchPmcListings } = require("./source-pmc");
 const { filterUnsupportedListings } = require("./listing-filters");
 
 const SOURCE_HANDLERS = {
@@ -13,6 +14,7 @@ const SOURCE_HANDLERS = {
   navipark: fetchNaviParkListings,
   repark: fetchReparkListings,
   "at-parking": fetchAtParkingListings,
+  pmc: fetchPmcListings,
 };
 
 function normalizeDetailUrl(detailUrl) {

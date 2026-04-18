@@ -48,6 +48,10 @@
         "横浜市南区 阪東橋",
         "横浜市南区"
       ]
+    },
+    {
+      "name": "pmc",
+      "areaPath": "/area/%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C/%E6%A8%AA%E6%B5%9C%E5%B8%82%E5%8D%97%E5%8C%BA/27"
     }
   ],
   "notifications": {

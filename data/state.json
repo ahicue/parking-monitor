@@ -2,7 +2,7 @@
   "listings": {
     "p-king:585030": {
       "fingerprint": "{\"monthlyPrice\":\"お問合せください\",\"prices\":[\"お問合せください\"],\"vacancyStatus\":\"contact\",\"note\":\"\",\"isNewData\":false,\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:14:00.456Z",
+      "lastSeenAt": "2026-05-05T11:38:00.465Z",
       "summary": {
         "source": "p-king",
         "name": "横浜市南区高砂町３丁目 月極駐車場（AKP）",
@@ -12,21 +12,9 @@
         "detailUrl": "https://p-king.jp/detail/585030"
       }
     },
-    "park-direct:PK000027742": {
-      "fingerprint": "{\"monthlyPrice\":\"21720 JPY\",\"prices\":[\"21720 JPY\"],\"vacancyStatus\":\"available\",\"note\":\"3か月以内の短期利用不可\\n保管場所使用承諾書を発行の場合、発行日より6ヶ月以内での解約不可\",\"isNewData\":false,\"updatedAt\":\"2025-10-27T02:57:34.336293+00:00\"}",
-      "lastSeenAt": "2026-05-05T10:15:45.642Z",
-      "summary": {
-        "source": "park-direct",
-        "name": "二葉町4丁目駐車場",
-        "monthlyPrice": "21720 JPY",
-        "vacancyStatus": "available",
-        "distanceMeters": 47,
-        "detailUrl": "https://www.park-direct.jp/parkinglot/PK000027742"
-      }
-    },
     "p-king:501600": {
       "fingerprint": "{\"monthlyPrice\":\"28,000円\",\"prices\":[\"28,000円\"],\"vacancyStatus\":\"contact\",\"note\":\"\",\"isNewData\":false,\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:14:00.456Z",
+      "lastSeenAt": "2026-05-05T11:38:00.465Z",
       "summary": {
         "source": "p-king",
         "name": "横浜市南区新川町 月極駐車場",
@@ -38,7 +26,7 @@
     },
     "at-parking:86168": {
       "fingerprint": "{\"monthlyPrice\":\"22,000円\",\"prices\":[\"22,000円\"],\"vacancyStatus\":\"unknown\",\"note\":\"高砂町3丁目 月極駐車場 詳細情報\",\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:19:01.701Z",
+      "lastSeenAt": "2026-05-05T11:43:31.984Z",
       "summary": {
         "source": "at-parking",
         "name": "高砂町3丁目",
@@ -50,7 +38,7 @@
     },
     "p-king:503155": {
       "fingerprint": "{\"monthlyPrice\":\"33,000円\",\"prices\":[\"33,000円\"],\"vacancyStatus\":\"contact\",\"note\":\"\",\"isNewData\":false,\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:14:00.456Z",
+      "lastSeenAt": "2026-05-05T11:38:00.465Z",
       "summary": {
         "source": "p-king",
         "name": "横浜市南区二葉町３丁目 月極駐車場",
@@ -60,9 +48,21 @@
         "detailUrl": "https://p-king.jp/detail/503155"
       }
     },
+    "carparking:5942": {
+      "fingerprint": "{\"monthlyPrice\":\"¥27,500\",\"prices\":[\"27500 JPY\"],\"vacancyStatus\":\"unknown\",\"note\":\"吉野町駅より徒歩2分ほど！塗装済みの平面駐車場です。\\r\\nお車のご入庫もしやすくなっております！\\r\\n保管場所使用承諾書発行可能★\",\"isNewData\":true,\"updatedAt\":\"2026-03-07T17:14:33.000Z\"}",
+      "lastSeenAt": "2026-05-05T11:38:43.818Z",
+      "summary": {
+        "source": "carparking",
+        "name": "月極駐車場｜神奈川県横浜市南区新川町4-",
+        "monthlyPrice": "¥27,500",
+        "vacancyStatus": "unknown",
+        "distanceMeters": 97,
+        "detailUrl": "https://carparking.jp/detail/5942/"
+      }
+    },
     "at-parking:294607": {
       "fingerprint": "{\"monthlyPrice\":\"22,000円\",\"prices\":[\"22,000円\"],\"vacancyStatus\":\"unknown\",\"note\":\"二葉町4－39駐車場 月極駐車場 詳細情報\",\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:16:25.301Z",
+      "lastSeenAt": "2026-05-05T11:40:35.860Z",
       "summary": {
         "source": "at-parking",
         "name": "二葉町4－39駐車場",
@@ -74,7 +74,7 @@
     },
     "at-parking:334876": {
       "fingerprint": "{\"monthlyPrice\":\"25,000円\",\"prices\":[\"25,000円\"],\"vacancyStatus\":\"unknown\",\"note\":\"新川町4－26駐車場 月極駐車場 詳細情報\",\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:19:05.635Z",
+      "lastSeenAt": "2026-05-05T11:43:36.620Z",
       "summary": {
         "source": "at-parking",
         "name": "新川町4－26駐車場",
@@ -86,7 +86,7 @@
     },
     "at-parking:303731": {
       "fingerprint": "{\"monthlyPrice\":\"25,000円\",\"prices\":[\"25,000円\"],\"vacancyStatus\":\"unknown\",\"note\":\"横浜市南区二葉町３丁目機械式 月極駐車場 詳細情報\",\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:19:00.027Z",
+      "lastSeenAt": "2026-05-05T11:43:30.100Z",
       "summary": {
         "source": "at-parking",
         "name": "横浜市南区二葉町３丁目機械式",
@@ -98,7 +98,7 @@
     },
     "at-parking:172666": {
       "fingerprint": "{\"monthlyPrice\":\"24,200 ～ 27,500円\",\"prices\":[\"24,200 ～ 27,500円\"],\"vacancyStatus\":\"unknown\",\"note\":\"新川町4－25駐車場 月極駐車場 詳細情報\",\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:16:46.902Z",
+      "lastSeenAt": "2026-05-05T11:41:00.537Z",
       "summary": {
         "source": "at-parking",
         "name": "新川町4－25駐車場",
@@ -110,7 +110,7 @@
     },
     "pmc:967-454": {
       "fingerprint": "{\"monthlyPrice\":\"11,000 円（税込）〜 13,200 円（税込）\",\"prices\":[\"11,000 円（税込）〜 13,200 円（税込）\"],\"vacancyStatus\":\"available\",\"note\":\"\",\"isNewData\":false,\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:19:24.542Z",
+      "lastSeenAt": "2026-05-05T11:43:58.508Z",
       "summary": {
         "source": "pmc",
         "name": "リヴシティ横濱新川町弐番館",
@@ -122,7 +122,7 @@
     },
     "p-king:208755": {
       "fingerprint": "{\"monthlyPrice\":\"27,500円\",\"prices\":[\"27,500円\"],\"vacancyStatus\":\"contact\",\"note\":\"\",\"isNewData\":false,\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:14:00.456Z",
+      "lastSeenAt": "2026-05-05T11:38:00.465Z",
       "summary": {
         "source": "p-king",
         "name": "横浜市南区吉野町４丁目　月極駐車場",
@@ -134,7 +134,7 @@
     },
     "p-king:186645": {
       "fingerprint": "{\"monthlyPrice\":\"お問合せください\",\"prices\":[\"23,100円\",\"お問合せください\",\"18,700円\",\"お問合せください\",\"18,700円\",\"24,200円\",\"24,200円\",\"お問合せください\"],\"vacancyStatus\":\"waitlist\",\"note\":\"\",\"isNewData\":false,\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:14:00.456Z",
+      "lastSeenAt": "2026-05-05T11:38:00.465Z",
       "summary": {
         "source": "p-king",
         "name": "横浜市南区睦町１丁目　月極駐車場",
@@ -146,7 +146,7 @@
     },
     "p-king:618435": {
       "fingerprint": "{\"monthlyPrice\":\"29,700円\",\"prices\":[\"29,700円\"],\"vacancyStatus\":\"contact\",\"note\":\"\",\"isNewData\":false,\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:14:00.456Z",
+      "lastSeenAt": "2026-05-05T11:38:00.465Z",
       "summary": {
         "source": "p-king",
         "name": "横浜市南区高砂町２丁目 月極駐車場",
@@ -158,7 +158,7 @@
     },
     "p-king:508294": {
       "fingerprint": "{\"monthlyPrice\":\"33,000円\",\"prices\":[\"33,000円\"],\"vacancyStatus\":\"waitlist\",\"note\":\"\",\"isNewData\":false,\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:14:00.456Z",
+      "lastSeenAt": "2026-05-05T11:38:00.465Z",
       "summary": {
         "source": "p-king",
         "name": "横浜市南区新川町３丁目 月極駐車場",
@@ -170,7 +170,7 @@
     },
     "at-parking:64050": {
       "fingerprint": "{\"monthlyPrice\":\"29,700円\",\"prices\":[\"29,700円\"],\"vacancyStatus\":\"unknown\",\"note\":\"高砂町2-19機械式 月極駐車場 詳細情報\",\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:16:21.471Z",
+      "lastSeenAt": "2026-05-05T11:40:32.306Z",
       "summary": {
         "source": "at-parking",
         "name": "高砂町2-19機械式",
@@ -182,7 +182,7 @@
     },
     "at-parking:340765": {
       "fingerprint": "{\"monthlyPrice\":\"23,000円\",\"prices\":[\"23,000円\"],\"vacancyStatus\":\"unknown\",\"note\":\"クオス駐車場 月極駐車場 詳細情報\",\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:19:06.452Z",
+      "lastSeenAt": "2026-05-05T11:43:37.532Z",
       "summary": {
         "source": "at-parking",
         "name": "クオス駐車場",
@@ -194,7 +194,7 @@
     },
     "at-parking:340766": {
       "fingerprint": "{\"monthlyPrice\":\"23,000円\",\"prices\":[\"23,000円\"],\"vacancyStatus\":\"unknown\",\"note\":\"クオス駐車場 月極駐車場 詳細情報\",\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:19:08.990Z",
+      "lastSeenAt": "2026-05-05T11:43:40.403Z",
       "summary": {
         "source": "at-parking",
         "name": "クオス駐車場",
@@ -206,7 +206,7 @@
     },
     "p-king:650237": {
       "fingerprint": "{\"monthlyPrice\":\"220,000円\",\"prices\":[\"220,000円\"],\"vacancyStatus\":\"contact\",\"note\":\"\",\"isNewData\":false,\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:14:00.456Z",
+      "lastSeenAt": "2026-05-05T11:38:00.465Z",
       "summary": {
         "source": "p-king",
         "name": "横浜市南区吉野町３丁目 月極駐車場",
@@ -218,7 +218,7 @@
     },
     "at-parking:318997": {
       "fingerprint": "{\"monthlyPrice\":\"22,000 ～ 23,100円\",\"prices\":[\"22,000 ～ 23,100円\"],\"vacancyStatus\":\"unknown\",\"note\":\"山王町4－28駐車場 月極駐車場 詳細情報\",\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:16:26.369Z",
+      "lastSeenAt": "2026-05-05T11:40:36.819Z",
       "summary": {
         "source": "at-parking",
         "name": "山王町4－28駐車場",
@@ -230,7 +230,7 @@
     },
     "carparking:1273730": {
       "fingerprint": "{\"monthlyPrice\":\"¥17,050\",\"prices\":[\"17050 JPY\"],\"vacancyStatus\":\"unknown\",\"note\":\"横浜市南区高砂町にございます月極駐車場です！\\r\\n吉野町駅からもアクセス良好★\\r\\n\\r\\nマンションに併設されております駐車場なのでセキュリティ面も安心！\\r\\n詳細はお問い合わせください☆彡\",\"isNewData\":true,\"updatedAt\":\"2026-03-05T19:30:21.000Z\"}",
-      "lastSeenAt": "2026-05-05T10:15:06.495Z",
+      "lastSeenAt": "2026-05-05T11:39:10.444Z",
       "summary": {
         "source": "carparking",
         "name": "月極駐車場｜神奈川県横浜市南区高砂町2",
@@ -242,7 +242,7 @@
     },
     "at-parking:293442": {
       "fingerprint": "{\"monthlyPrice\":\"25,000円\",\"prices\":[\"25,000円\"],\"vacancyStatus\":\"unknown\",\"note\":\"二葉町2－17駐車場 月極駐車場 詳細情報\",\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:18:59.399Z",
+      "lastSeenAt": "2026-05-05T11:43:29.388Z",
       "summary": {
         "source": "at-parking",
         "name": "二葉町2－17駐車場",
@@ -254,7 +254,7 @@
     },
     "p-king:517633": {
       "fingerprint": "{\"monthlyPrice\":\"75,000円\",\"prices\":[\"75,000円\"],\"vacancyStatus\":\"available\",\"note\":\"3台縦列一括貸し区画で空きが出ました！ シャッター・屋根..\",\"isNewData\":false,\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:14:00.456Z",
+      "lastSeenAt": "2026-05-05T11:38:00.465Z",
       "summary": {
         "source": "p-king",
         "name": "横浜市南区二葉町２丁目 月極駐車場",
@@ -266,7 +266,7 @@
     },
     "at-parking:322386": {
       "fingerprint": "{\"monthlyPrice\":\"24,200円\",\"prices\":[\"24,200円\"],\"vacancyStatus\":\"unknown\",\"note\":\"高砂町1－10駐車場 月極駐車場 詳細情報\",\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:19:10.706Z",
+      "lastSeenAt": "2026-05-05T11:43:42.379Z",
       "summary": {
         "source": "at-parking",
         "name": "高砂町1－10駐車場",
@@ -278,7 +278,7 @@
     },
     "park-direct:PK000183331": {
       "fingerprint": "{\"monthlyPrice\":\"28036 JPY\",\"prices\":[\"28036 JPY\"],\"vacancyStatus\":\"available\",\"note\":\"\",\"isNewData\":true,\"updatedAt\":\"2026-04-21T07:39:13.729841+00:00\"}",
-      "lastSeenAt": "2026-05-05T10:15:17.401Z",
+      "lastSeenAt": "2026-05-05T11:39:21.072Z",
       "summary": {
         "source": "park-direct",
         "name": "【TD】千歳橋駐車場",
@@ -290,7 +290,7 @@
     },
     "p-king:517626": {
       "fingerprint": "{\"monthlyPrice\":\"18,000円\",\"prices\":[\"18,000円\"],\"vacancyStatus\":\"contact\",\"note\":\"コンパクトカー推奨\",\"isNewData\":false,\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:14:00.456Z",
+      "lastSeenAt": "2026-05-05T11:38:00.465Z",
       "summary": {
         "source": "p-king",
         "name": "横浜市南区吉野町２丁目 月極駐車場",
@@ -302,7 +302,7 @@
     },
     "p-king:501615": {
       "fingerprint": "{\"monthlyPrice\":\"25,000円\",\"prices\":[\"25,000円\"],\"vacancyStatus\":\"contact\",\"note\":\"\",\"isNewData\":false,\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:14:00.924Z",
+      "lastSeenAt": "2026-05-05T11:38:00.993Z",
       "summary": {
         "source": "p-king",
         "name": "横浜市南区共進町 月極駐車場",
@@ -314,7 +314,7 @@
     },
     "at-parking:337995": {
       "fingerprint": "{\"monthlyPrice\":\"27,500円\",\"prices\":[\"27,500円\"],\"vacancyStatus\":\"unknown\",\"note\":\"共進町1－4駐車場 月極駐車場 詳細情報\",\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:19:08.706Z",
+      "lastSeenAt": "2026-05-05T11:43:40.084Z",
       "summary": {
         "source": "at-parking",
         "name": "共進町1－4駐車場",
@@ -326,7 +326,7 @@
     },
     "at-parking:170393": {
       "fingerprint": "{\"monthlyPrice\":\"16,500 ～ 27,500円\",\"prices\":[\"16,500 ～ 27,500円\"],\"vacancyStatus\":\"unknown\",\"note\":\"南吉田町５丁目 月極駐車場 詳細情報\",\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:16:29.964Z",
+      "lastSeenAt": "2026-05-05T11:40:40.849Z",
       "summary": {
         "source": "at-parking",
         "name": "南吉田町５丁目",
@@ -338,7 +338,7 @@
     },
     "p-king:585046": {
       "fingerprint": "{\"monthlyPrice\":\"お問合せください\",\"prices\":[\"お問合せください\"],\"vacancyStatus\":\"contact\",\"note\":\"\",\"isNewData\":false,\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:14:00.456Z",
+      "lastSeenAt": "2026-05-05T11:38:00.465Z",
       "summary": {
         "source": "p-king",
         "name": "横浜市南区睦町１丁目 月極駐車場（AKP）",
@@ -350,7 +350,7 @@
     },
     "p-king:652638": {
       "fingerprint": "{\"monthlyPrice\":\"33,000円\",\"prices\":[\"33,000円\"],\"vacancyStatus\":\"contact\",\"note\":\"\",\"isNewData\":false,\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:14:00.456Z",
+      "lastSeenAt": "2026-05-05T11:38:00.465Z",
       "summary": {
         "source": "p-king",
         "name": "横浜市南区新川町１丁目 月極駐車場",
@@ -362,7 +362,7 @@
     },
     "at-parking:85483": {
       "fingerprint": "{\"monthlyPrice\":\"22,000円\",\"prices\":[\"22,000円\"],\"vacancyStatus\":\"unknown\",\"note\":\"二葉町1－1駐車場 月極駐車場 詳細情報\",\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:18:59.071Z",
+      "lastSeenAt": "2026-05-05T11:43:29.016Z",
       "summary": {
         "source": "at-parking",
         "name": "二葉町1－1駐車場",
@@ -374,7 +374,7 @@
     },
     "at-parking:172334": {
       "fingerprint": "{\"monthlyPrice\":\"16,500円\",\"prices\":[\"16,500円\"],\"vacancyStatus\":\"unknown\",\"note\":\"二葉町1－3駐車場 月極駐車場 詳細情報\",\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:16:40.947Z",
+      "lastSeenAt": "2026-05-05T11:40:53.086Z",
       "summary": {
         "source": "at-parking",
         "name": "二葉町1－3駐車場",
@@ -386,7 +386,7 @@
     },
     "pmc:211-111": {
       "fingerprint": "{\"monthlyPrice\":\"33,000 円（税込）\",\"prices\":[\"33,000 円（税込）\"],\"vacancyStatus\":\"unavailable\",\"note\":\"ハイルーフ車入庫可能 | 雨に濡れない\",\"isNewData\":false,\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:19:24.542Z",
+      "lastSeenAt": "2026-05-05T11:43:58.508Z",
       "summary": {
         "source": "pmc",
         "name": "ラフィネステージ横濱蒔田",
@@ -398,7 +398,7 @@
     },
     "pmc:730-710": {
       "fingerprint": "{\"monthlyPrice\":\"41,250 円（税込）〜 46,200 円（税込）\",\"prices\":[\"41,250 円（税込）〜 46,200 円（税込）\"],\"vacancyStatus\":\"unavailable\",\"note\":\"ハイルーフ車入庫可能 | 平面式\",\"isNewData\":false,\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:19:23.750Z",
+      "lastSeenAt": "2026-05-05T11:43:57.606Z",
       "summary": {
         "source": "pmc",
         "name": "クリオ吉野町伍番館",
@@ -410,7 +410,7 @@
     },
     "at-parking:303594": {
       "fingerprint": "{\"monthlyPrice\":\"22,000 ～ 23,100円\",\"prices\":[\"22,000 ～ 23,100円\"],\"vacancyStatus\":\"unknown\",\"note\":\"日枝町5－127駐車場 月極駐車場 詳細情報\",\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:16:34.187Z",
+      "lastSeenAt": "2026-05-05T11:40:45.460Z",
       "summary": {
         "source": "at-parking",
         "name": "日枝町5－127駐車場",
@@ -422,7 +422,7 @@
     },
     "pmc:323-856": {
       "fingerprint": "{\"monthlyPrice\":\"29,700 円（税込）\",\"prices\":[\"29,700 円（税込）\"],\"vacancyStatus\":\"unavailable\",\"note\":\"\",\"isNewData\":false,\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:19:24.542Z",
+      "lastSeenAt": "2026-05-05T11:43:58.508Z",
       "summary": {
         "source": "pmc",
         "name": "宮元町1丁目の駐車場",
@@ -434,7 +434,7 @@
     },
     "at-parking:304022": {
       "fingerprint": "{\"monthlyPrice\":\"20,350円\",\"prices\":[\"20,350円\"],\"vacancyStatus\":\"unknown\",\"note\":\"日枝町3－91駐車場 月極駐車場 詳細情報\",\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:16:33.629Z",
+      "lastSeenAt": "2026-05-05T11:40:44.812Z",
       "summary": {
         "source": "at-parking",
         "name": "日枝町3－91駐車場",
@@ -446,7 +446,7 @@
     },
     "p-king:151655": {
       "fingerprint": "{\"monthlyPrice\":\"22,330円 ～\",\"prices\":[\"27,830円\",\"22,330円\"],\"vacancyStatus\":\"waitlist\",\"note\":\"\",\"isNewData\":false,\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:14:00.456Z",
+      "lastSeenAt": "2026-05-05T11:38:00.465Z",
       "summary": {
         "source": "p-king",
         "name": "横浜市南区二葉町１丁目　月極駐車場",
@@ -458,7 +458,7 @@
     },
     "p-king:517632": {
       "fingerprint": "{\"monthlyPrice\":\"17,000円\",\"prices\":[\"17,000円\"],\"vacancyStatus\":\"available\",\"note\":\"\",\"isNewData\":false,\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:14:00.456Z",
+      "lastSeenAt": "2026-05-05T11:38:00.465Z",
       "summary": {
         "source": "p-king",
         "name": "横浜市南区二葉町１丁目 月極駐車場",
@@ -470,7 +470,7 @@
     },
     "at-parking:226237": {
       "fingerprint": "{\"monthlyPrice\":\"19,000 ～ 20,900円\",\"prices\":[\"19,000 ～ 20,900円\"],\"vacancyStatus\":\"unknown\",\"note\":\"二葉町1丁目屋内機械式 月極駐車場 詳細情報\",\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:18:57.630Z",
+      "lastSeenAt": "2026-05-05T11:43:27.367Z",
       "summary": {
         "source": "at-parking",
         "name": "二葉町1丁目屋内機械式",
@@ -482,7 +482,7 @@
     },
     "p-king:517634": {
       "fingerprint": "{\"monthlyPrice\":\"18,000円\",\"prices\":[\"18,000円\"],\"vacancyStatus\":\"contact\",\"note\":\"\",\"isNewData\":false,\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:14:00.924Z",
+      "lastSeenAt": "2026-05-05T11:38:00.993Z",
       "summary": {
         "source": "p-king",
         "name": "横浜市南区日枝町３丁目 月極駐車場",
@@ -494,7 +494,7 @@
     },
     "at-parking:303925": {
       "fingerprint": "{\"monthlyPrice\":\"20,000円\",\"prices\":[\"20,000円\"],\"vacancyStatus\":\"unknown\",\"note\":\"横浜市南区新川町１丁目２機械式 月極駐車場 詳細情報\",\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:18:59.702Z",
+      "lastSeenAt": "2026-05-05T11:43:29.738Z",
       "summary": {
         "source": "at-parking",
         "name": "横浜市南区新川町１丁目２機械式",
@@ -506,7 +506,7 @@
     },
     "p-king:517630": {
       "fingerprint": "{\"monthlyPrice\":\"16,500円\",\"prices\":[\"16,500円\"],\"vacancyStatus\":\"contact\",\"note\":\"\",\"isNewData\":false,\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:14:00.456Z",
+      "lastSeenAt": "2026-05-05T11:38:00.465Z",
       "summary": {
         "source": "p-king",
         "name": "横浜市南区新川町１丁目 月極駐車場",
@@ -518,7 +518,7 @@
     },
     "p-king:509284": {
       "fingerprint": "{\"monthlyPrice\":\"28,600円 ～\",\"prices\":[\"28,600円\",\"28,600円\"],\"vacancyStatus\":\"waitlist\",\"note\":\"\",\"isNewData\":false,\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:14:00.456Z",
+      "lastSeenAt": "2026-05-05T11:38:00.465Z",
       "summary": {
         "source": "p-king",
         "name": "横浜市南区日枝町２丁目 月極駐車場",
@@ -530,7 +530,7 @@
     },
     "pmc:920-783": {
       "fingerprint": "{\"monthlyPrice\":\"19,800 円（税込）\",\"prices\":[\"19,800 円（税込）\"],\"vacancyStatus\":\"available\",\"note\":\"ワイド車入庫可能 | 雨に濡れない\",\"isNewData\":false,\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:19:24.542Z",
+      "lastSeenAt": "2026-05-05T11:43:58.508Z",
       "summary": {
         "source": "pmc",
         "name": "ライオンズプラザ南太田",
@@ -542,7 +542,7 @@
     },
     "at-parking:172241": {
       "fingerprint": "{\"monthlyPrice\":\"20,000円\",\"prices\":[\"20,000円\"],\"vacancyStatus\":\"unknown\",\"note\":\"中村町4－283駐車場 月極駐車場 詳細情報\",\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:19:07.000Z",
+      "lastSeenAt": "2026-05-05T11:43:38.145Z",
       "summary": {
         "source": "at-parking",
         "name": "中村町4－283駐車場",
@@ -554,7 +554,7 @@
     },
     "at-parking:315357": {
       "fingerprint": "{\"monthlyPrice\":\"16,500 ～ 22,000円\",\"prices\":[\"16,500 ～ 22,000円\"],\"vacancyStatus\":\"unknown\",\"note\":\"吉野町1－1駐車場 月極駐車場 詳細情報\",\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:16:32.480Z",
+      "lastSeenAt": "2026-05-05T11:40:43.475Z",
       "summary": {
         "source": "at-parking",
         "name": "吉野町1－1駐車場",
@@ -566,7 +566,7 @@
     },
     "at-parking:303419": {
       "fingerprint": "{\"monthlyPrice\":\"16,500円\",\"prices\":[\"16,500円\"],\"vacancyStatus\":\"unknown\",\"note\":\"新川町1－2駐車場 月極駐車場 詳細情報\",\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:19:11.527Z",
+      "lastSeenAt": "2026-05-05T11:43:43.314Z",
       "summary": {
         "source": "at-parking",
         "name": "新川町1－2駐車場",
@@ -578,7 +578,7 @@
     },
     "at-parking:62122": {
       "fingerprint": "{\"monthlyPrice\":\"16,500円\",\"prices\":[\"16,500円\"],\"vacancyStatus\":\"unknown\",\"note\":\"新川町1丁目機械式 月極駐車場 詳細情報\",\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:16:44.878Z",
+      "lastSeenAt": "2026-05-05T11:40:57.762Z",
       "summary": {
         "source": "at-parking",
         "name": "新川町1丁目機械式",
@@ -590,7 +590,7 @@
     },
     "at-parking:340486": {
       "fingerprint": "{\"monthlyPrice\":\"20,900円\",\"prices\":[\"20,900円\"],\"vacancyStatus\":\"unknown\",\"note\":\"中村町4－276駐車場 月極駐車場 詳細情報\",\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:19:06.724Z",
+      "lastSeenAt": "2026-05-05T11:43:37.833Z",
       "summary": {
         "source": "at-parking",
         "name": "中村町4－276駐車場",
@@ -602,7 +602,7 @@
     },
     "at-parking:308117": {
       "fingerprint": "{\"monthlyPrice\":\"23,000円\",\"prices\":[\"23,000円\"],\"vacancyStatus\":\"unknown\",\"note\":\"共進町1－28駐車場 月極駐車場 詳細情報\",\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:19:02.276Z",
+      "lastSeenAt": "2026-05-05T11:43:32.660Z",
       "summary": {
         "source": "at-parking",
         "name": "共進町1－28駐車場",
@@ -614,7 +614,7 @@
     },
     "at-parking:308759": {
       "fingerprint": "{\"monthlyPrice\":\"44,000円\",\"prices\":[\"44,000円\"],\"vacancyStatus\":\"unknown\",\"note\":\"共進町1－28駐車場 月極駐車場 詳細情報\",\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:18:55.389Z",
+      "lastSeenAt": "2026-05-05T11:43:24.737Z",
       "summary": {
         "source": "at-parking",
         "name": "共進町1－28駐車場",
@@ -626,7 +626,7 @@
     },
     "at-parking:323429": {
       "fingerprint": "{\"monthlyPrice\":\"18,700 ～ 26,400円\",\"prices\":[\"18,700 ～ 26,400円\"],\"vacancyStatus\":\"unknown\",\"note\":\"白妙町5－70駐車場 月極駐車場 詳細情報\",\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:16:30.281Z",
+      "lastSeenAt": "2026-05-05T11:40:41.191Z",
       "summary": {
         "source": "at-parking",
         "name": "白妙町5－70駐車場",
@@ -638,7 +638,7 @@
     },
     "p-king:250529": {
       "fingerprint": "{\"monthlyPrice\":\"18,700円 ～\",\"prices\":[\"18,700円\",\"19,800円\",\"24,750円\",\"24,750円\",\"25,300円\",\"19,800円\",\"19,800円\"],\"vacancyStatus\":\"waitlist\",\"note\":\"\",\"isNewData\":false,\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:14:00.456Z",
+      "lastSeenAt": "2026-05-05T11:38:00.465Z",
       "summary": {
         "source": "p-king",
         "name": "横浜市南区白妙町５丁目 月極駐車場",
@@ -650,7 +650,7 @@
     },
     "at-parking:172243": {
       "fingerprint": "{\"monthlyPrice\":\"20,000円\",\"prices\":[\"20,000円\"],\"vacancyStatus\":\"unknown\",\"note\":\"中村町4－281駐車場 月極駐車場 詳細情報\",\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:19:04.537Z",
+      "lastSeenAt": "2026-05-05T11:43:35.385Z",
       "summary": {
         "source": "at-parking",
         "name": "中村町4－281駐車場",
@@ -662,7 +662,7 @@
     },
     "at-parking:327374": {
       "fingerprint": "{\"monthlyPrice\":\"19,800 ～ 22,000円\",\"prices\":[\"19,800 ～ 22,000円\"],\"vacancyStatus\":\"unknown\",\"note\":\"宮元町1－21駐車場 月極駐車場 詳細情報\",\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:19:02.832Z",
+      "lastSeenAt": "2026-05-05T11:43:33.452Z",
       "summary": {
         "source": "at-parking",
         "name": "宮元町1－21駐車場",
@@ -674,7 +674,7 @@
     },
     "carparking:1306882": {
       "fingerprint": "{\"monthlyPrice\":\"¥38,500\",\"prices\":[\"38500 JPY\"],\"vacancyStatus\":\"unknown\",\"note\":\"横浜市南区南太田1丁目の月極駐車場！\\r\\n南太田駅から徒歩3分！\\r\\n高架下の月極駐車場となりますので、屋根付きです！\\r\\n平置き駐車場なので大型車も入庫可能！\\r\\nお問い合わせはお早めにお願いします！\",\"isNewData\":false,\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:14:25.714Z",
+      "lastSeenAt": "2026-05-05T11:38:27.825Z",
       "summary": {
         "source": "carparking",
         "name": "月極駐車場｜神奈川県横浜市南区南太田1",
@@ -686,7 +686,7 @@
     },
     "at-parking:170545": {
       "fingerprint": "{\"monthlyPrice\":\"27,500円\",\"prices\":[\"27,500円\"],\"vacancyStatus\":\"unknown\",\"note\":\"南区日枝町2丁目ﾊｲﾙｰﾌOK平置き 月極駐車場 詳細情報\",\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:16:22.224Z",
+      "lastSeenAt": "2026-05-05T11:40:32.936Z",
       "summary": {
         "source": "at-parking",
         "name": "南区日枝町2丁目ﾊｲﾙｰﾌOK平置き",
@@ -698,7 +698,7 @@
     },
     "p-king:544082": {
       "fingerprint": "{\"monthlyPrice\":\"27,500円\",\"prices\":[\"27,500円\"],\"vacancyStatus\":\"available\",\"note\":\"\",\"isNewData\":false,\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:14:00.456Z",
+      "lastSeenAt": "2026-05-05T11:38:00.465Z",
       "summary": {
         "source": "p-king",
         "name": "横浜市南区日枝町２丁目 月極駐車場",
@@ -710,7 +710,7 @@
     },
     "at-parking:277194": {
       "fingerprint": "{\"monthlyPrice\":\"19,800 ～ 22,000円\",\"prices\":[\"19,800 ～ 22,000円\"],\"vacancyStatus\":\"waitlist\",\"note\":\"横浜市南区白金町２丁目平置 月極駐車場 詳細情報\",\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:16:14.319Z",
+      "lastSeenAt": "2026-05-05T11:40:24.964Z",
       "summary": {
         "source": "at-parking",
         "name": "横浜市南区白金町２丁目平置",
@@ -722,7 +722,7 @@
     },
     "at-parking:170196": {
       "fingerprint": "{\"monthlyPrice\":\"22,000 ～ 25,300円\",\"prices\":[\"22,000 ～ 25,300円\"],\"vacancyStatus\":\"unknown\",\"note\":\"南太田1－30駐車場 月極駐車場 詳細情報\",\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:16:42.043Z",
+      "lastSeenAt": "2026-05-05T11:40:54.346Z",
       "summary": {
         "source": "at-parking",
         "name": "南太田1－30駐車場",
@@ -734,7 +734,7 @@
     },
     "at-parking:174113": {
       "fingerprint": "{\"monthlyPrice\":\"22,000円\",\"prices\":[\"22,000円\"],\"vacancyStatus\":\"unknown\",\"note\":\"宿町1－22駐車場 月極駐車場 詳細情報\",\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:16:27.557Z",
+      "lastSeenAt": "2026-05-05T11:40:38.074Z",
       "summary": {
         "source": "at-parking",
         "name": "宿町1－22駐車場",
@@ -746,7 +746,7 @@
     },
     "navipark:N03171": {
       "fingerprint": "{\"monthlyPrice\":\"\",\"prices\":[],\"vacancyStatus\":\"unknown\",\"note\":\"駐車サービス券\",\"isNewData\":false,\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:15:53.523Z",
+      "lastSeenAt": "2026-05-05T11:40:00.909Z",
       "summary": {
         "source": "navipark",
         "name": "前里町第１",
@@ -758,7 +758,7 @@
     },
     "at-parking:172183": {
       "fingerprint": "{\"monthlyPrice\":\"25,000円\",\"prices\":[\"25,000円\"],\"vacancyStatus\":\"unknown\",\"note\":\"中村町4－287駐車場 月極駐車場 詳細情報\",\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:19:05.072Z",
+      "lastSeenAt": "2026-05-05T11:43:35.986Z",
       "summary": {
         "source": "at-parking",
         "name": "中村町4－287駐車場",
@@ -770,7 +770,7 @@
     },
     "p-king:501601": {
       "fingerprint": "{\"monthlyPrice\":\"28,000円\",\"prices\":[\"28,000円\"],\"vacancyStatus\":\"contact\",\"note\":\"\",\"isNewData\":false,\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:14:00.924Z",
+      "lastSeenAt": "2026-05-05T11:38:00.993Z",
       "summary": {
         "source": "p-king",
         "name": "横浜市南区日枝町 月極駐車場",
@@ -782,7 +782,7 @@
     },
     "p-king:550480": {
       "fingerprint": "{\"monthlyPrice\":\"お問合せください\",\"prices\":[\"お問合せください\",\"お問合せください\",\"お問合せください\"],\"vacancyStatus\":\"contact\",\"note\":\"\",\"isNewData\":false,\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:14:00.924Z",
+      "lastSeenAt": "2026-05-05T11:38:00.993Z",
       "summary": {
         "source": "p-king",
         "name": "横浜市南区日枝町１丁目 月極駐車場",
@@ -794,7 +794,7 @@
     },
     "carparking:1176319": {
       "fingerprint": "{\"monthlyPrice\":\"¥18,000\",\"prices\":[\"18000 JPY\"],\"vacancyStatus\":\"unknown\",\"note\":\"吉野町駅、黄金町駅から徒歩圏内の月極駐車場です！\\r\\n\\r\\n平面の駐車場になりますので大きなお車もご相談ください！\\r\\nお問い合わせお待ちしております♪\",\"isNewData\":true,\"updatedAt\":\"2026-03-07T05:17:43.000Z\"}",
-      "lastSeenAt": "2026-05-05T10:14:41.773Z",
+      "lastSeenAt": "2026-05-05T11:38:40.163Z",
       "summary": {
         "source": "carparking",
         "name": "月極駐車場｜神奈川県横浜市南区白金町2",
@@ -806,7 +806,7 @@
     },
     "p-king:152012": {
       "fingerprint": "{\"monthlyPrice\":\"お問合せください\",\"prices\":[\"お問合せください\"],\"vacancyStatus\":\"contact\",\"note\":\"\",\"isNewData\":false,\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:14:00.924Z",
+      "lastSeenAt": "2026-05-05T11:38:00.993Z",
       "summary": {
         "source": "p-king",
         "name": "横浜市南区日枝町 月極駐車場",
@@ -818,7 +818,7 @@
     },
     "at-parking:170628": {
       "fingerprint": "{\"monthlyPrice\":\"27,500円\",\"prices\":[\"27,500円\"],\"vacancyStatus\":\"unknown\",\"note\":\"日枝町1－26駐車場 月極駐車場 詳細情報\",\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:19:03.738Z",
+      "lastSeenAt": "2026-05-05T11:43:34.483Z",
       "summary": {
         "source": "at-parking",
         "name": "日枝町1－26駐車場",
@@ -830,7 +830,7 @@
     },
     "at-parking:303903": {
       "fingerprint": "{\"monthlyPrice\":\"19,800 ～ 20,900円\",\"prices\":[\"19,800 ～ 20,900円\"],\"vacancyStatus\":\"unknown\",\"note\":\"前里町3－80駐車場 月極駐車場 詳細情報\",\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:16:31.851Z",
+      "lastSeenAt": "2026-05-05T11:40:42.838Z",
       "summary": {
         "source": "at-parking",
         "name": "前里町3－80駐車場",
@@ -842,7 +842,7 @@
     },
     "park-direct:PK000142864": {
       "fingerprint": "{\"monthlyPrice\":\"30888 JPY\",\"prices\":[\"30888 JPY\"],\"vacancyStatus\":\"available\",\"note\":\"\",\"isNewData\":false,\"updatedAt\":\"2025-11-27T09:10:24.909722+00:00\"}",
-      "lastSeenAt": "2026-05-05T10:15:20.583Z",
+      "lastSeenAt": "2026-05-05T11:39:24.836Z",
       "summary": {
         "source": "park-direct",
         "name": "京急南太田",
@@ -854,7 +854,7 @@
     },
     "p-king:243561": {
       "fingerprint": "{\"monthlyPrice\":\"22,000円\",\"prices\":[\"22,000円\"],\"vacancyStatus\":\"contact\",\"note\":\"\",\"isNewData\":false,\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:14:00.924Z",
+      "lastSeenAt": "2026-05-05T11:38:00.993Z",
       "summary": {
         "source": "p-king",
         "name": "横浜市南区前里町４丁目　月極駐車場",
@@ -866,7 +866,7 @@
     },
     "pmc:274-757": {
       "fingerprint": "{\"monthlyPrice\":\"22,000 円（税込）\",\"prices\":[\"22,000 円（税込）\"],\"vacancyStatus\":\"available\",\"note\":\"\",\"isNewData\":false,\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:19:23.750Z",
+      "lastSeenAt": "2026-05-05T11:43:57.606Z",
       "summary": {
         "source": "pmc",
         "name": "日枝町1丁目の駐車場",
@@ -878,7 +878,7 @@
     },
     "at-parking:170134": {
       "fingerprint": "{\"monthlyPrice\":\"20,900 ～ 25,300円\",\"prices\":[\"20,900 ～ 25,300円\"],\"vacancyStatus\":\"unknown\",\"note\":\"前里町3－78駐車場 月極駐車場 詳細情報\",\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:16:29.678Z",
+      "lastSeenAt": "2026-05-05T11:40:40.531Z",
       "summary": {
         "source": "at-parking",
         "name": "前里町3－78駐車場",
@@ -890,7 +890,7 @@
     },
     "at-parking:170297": {
       "fingerprint": "{\"monthlyPrice\":\"24,200円\",\"prices\":[\"24,200円\"],\"vacancyStatus\":\"unknown\",\"note\":\"前里町4－89駐車場 月極駐車場 詳細情報\",\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:19:08.162Z",
+      "lastSeenAt": "2026-05-05T11:43:39.481Z",
       "summary": {
         "source": "at-parking",
         "name": "前里町4－89駐車場",
@@ -902,7 +902,7 @@
     },
     "at-parking:327785": {
       "fingerprint": "{\"monthlyPrice\":\"29,260 ～ 38,610円\",\"prices\":[\"29,260 ～ 38,610円\"],\"vacancyStatus\":\"available\",\"note\":\"サウスヴィラ横濱月極駐車場 月極駐車場 詳細情報\",\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:16:04.241Z",
+      "lastSeenAt": "2026-05-05T11:40:14.562Z",
       "summary": {
         "source": "at-parking",
         "name": "サウスヴィラ横濱月極駐車場",
@@ -914,7 +914,7 @@
     },
     "park-direct:PK000118058": {
       "fingerprint": "{\"monthlyPrice\":\"21384 JPY\",\"prices\":[\"21384 JPY\"],\"vacancyStatus\":\"available\",\"note\":\"\",\"isNewData\":true,\"updatedAt\":\"2026-04-30T22:45:30.708919+00:00\"}",
-      "lastSeenAt": "2026-05-05T10:15:24.260Z",
+      "lastSeenAt": "2026-05-05T11:39:28.688Z",
       "summary": {
         "source": "park-direct",
         "name": "横浜西中町４丁目第２",
@@ -926,7 +926,7 @@
     },
     "p-king:548855": {
       "fingerprint": "{\"monthlyPrice\":\"お問合せください\",\"prices\":[\"お問合せください\",\"お問合せください\",\"お問合せください\",\"お問合せください\",\"お問合せください\",\"お問合せください\"],\"vacancyStatus\":\"contact\",\"note\":\"\",\"isNewData\":false,\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:14:00.456Z",
+      "lastSeenAt": "2026-05-05T11:38:00.465Z",
       "summary": {
         "source": "p-king",
         "name": "横浜市南区高根町４丁目 月極駐車場",
@@ -938,7 +938,7 @@
     },
     "pmc:103-222": {
       "fingerprint": "{\"monthlyPrice\":\"18,700 円（税込）\",\"prices\":[\"18,700 円（税込）\"],\"vacancyStatus\":\"available\",\"note\":\"雨に濡れない\",\"isNewData\":false,\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:19:23.750Z",
+      "lastSeenAt": "2026-05-05T11:43:57.606Z",
       "summary": {
         "source": "pmc",
         "name": "藤和阪東橋ハイタウン",
@@ -950,7 +950,7 @@
     },
     "park-direct:PK000068759": {
       "fingerprint": "{\"monthlyPrice\":\"21384 JPY\",\"prices\":[\"21384 JPY\"],\"vacancyStatus\":\"available\",\"note\":\"\",\"isNewData\":false,\"updatedAt\":\"2026-03-06T03:37:10.649336+00:00\"}",
-      "lastSeenAt": "2026-05-05T10:15:32.871Z",
+      "lastSeenAt": "2026-05-05T11:39:38.176Z",
       "summary": {
         "source": "park-direct",
         "name": "横浜西中町４丁目第４",
@@ -962,7 +962,7 @@
     },
     "pmc:771-965": {
       "fingerprint": "{\"monthlyPrice\":\"18,700 円（税込）\",\"prices\":[\"18,700 円（税込）\"],\"vacancyStatus\":\"available\",\"note\":\"\",\"isNewData\":false,\"updatedAt\":null}",
-      "lastSeenAt": "2026-05-05T10:19:24.542Z",
+      "lastSeenAt": "2026-05-05T11:43:58.508Z",
       "summary": {
         "source": "pmc",
         "name": "宮元町2丁目の駐車場",
@@ -973,5 +973,5 @@
       }
     }
   },
-  "lastCheckAt": "2026-05-05T10:19:29.817Z"
+  "lastCheckAt": "2026-05-05T11:44:04.516Z"
 }
